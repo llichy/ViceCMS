@@ -1,0 +1,93 @@
+html {
+  position: relative;
+  height: auto;
+  min-height: 100%; 
+}
+
+body {margin: 0 0 220px;font-family: Nunito; background-color:#3f3d50;text-decoration:none;background-image:url('../img/bgm.png');background-repeat:repeat;background-size:9%}
+
+
+/* ScrollBar */
+
+/* width */
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #463953; 
+border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+:focus-visible {
+  outline: none;
+}
+
+@media (max-width: 1024px) {
+.rightimg {
+  display:none;
+}
+}
+
+@media screen and (max-width: 1366px) and (min-width: 1025px) {
+a.loginbuttonm {float:none!important;left: 300px!important;}
+div.rightimg {background-size: 200%;right: -10%;width: 318px;height: 840px;}
+div.bodym {
+height: 620px;
+}
+}
+/* Maintenance */
+#adminloginbox{background-color: #2e2c3c;background-size:106%;top:-75%;width: 625px; height: 335px;background-image:url(../img/loginm.png);  background-repeat:no-repeat;background-position: center;}
+.headerm {position:relative;float:left;min-width: 100%; background-color:#2e2c3c;height:85px;}
+.centerm {position:relative;width:765px;margin-left:20%}
+.homem {position:relative;float:left;color:#7e369f;font-size:25px;top:20px;text-decoration:none}
+.loginbuttonm {position:relative;float:right;background-color:#7e369f;font-size:17px;text-decoration:none;top:20px;color:white;display: flex;justify-content: center;align-content: center;border-radius: 30px;padding:12px;width: 130px;}
+.minilogom{position: relative;float:left;left:35px;top:10px;}
+.mininame{color:#7e369f;font-size:16px;top:20px;left:-25px;position: relative}
+.bodym {position: relative; float: left;min-width: 100%; height: 725px;}
+.maintenance-txt {font-size:23px;width: 700px; color:#b083c6;}
+.maintenance-txt > p > b{color: #dc95fd}
+.bodymaintenance {position:relative;}
+form {position: relative; width: 100%; top: 20px; left: 35px; float: left;}
+
+/* Input */
+.inputbox > input:active{border: none;outline:none;}
+.inputbox > input:focus-visible{border: none;outline:none;}
+
+form > .inputbox {width: 100%; height: 40px; border-radius: 5px; float: left; padding-left: 5px; margin-right: 10px; background-color: #262537; display: flex; align-content: center; align-items: center;}
+
+.selectric {width: 60px; height: 20px; border-radius: 5px; float: left; padding-left: 1px; margin-right: 10px; background-color: #262537; display: flex; align-content: center; align-items: center; border:none; color: white;}
+
+form > .inputbox > .avatar {float: left; position: relative;top: 3px;}
+form > .inputbox > .avatarpseudo {float: left; position: relative;top: 5px;}
+.avatarregister{float: left; position: relative;top: 10px;}
+#avatarimg {position: relative;top: 6px;}
+
+form > .inputbox > input {background-color:transparent;float:left;padding: 5px;border:none;color: white;}
+form > .inputbox > input::placeholder {color: white;}
+.mtitle  {width:100%;font-size:13px;color:#55545a;margin-bottom:5px;text-align: left;float:left;}
+#sub_1 {position: relative; left:60px;float: left; background-color: #7e369f; font-size: 15px; top: 20px; color: white; display: flex; justify-content: center; align-content: center; border-radius: 30px; padding: 16px; width: 175px; border: none;}
+#sub_1:hover {opacity: .5;}
+.footerposition {width: 100%; top:50px; margin-left:auto; margin-right:auto; position: relative;}
+.footerlogo{float:left;}
+.footerpositioncopyright{position:relative;left:20px;float:left;}
+.footercopyright{font-size:16px;border-left: 2px solid #2e2c3c;height:55px;padding-left:10px;}
+.footercopyright > span {color:#5c6467}
+.socialm {position: relative;display: flex;justify-content: space-between;width: 180px;}
+.rightimg {float: right; position: absolute; background-image: url(../img/maintenance.png); background-repeat: no-repeat; background-size: 125%; width: 671px; height: 955px; top: -14%; right: -10%; z-index: 1;}
+.logine {position: relative;display: flex;justify-content: space-between;width: 100%;}
+.side {position: relative;width:300px;top:10px;}
+.side > img {filter: drop-shadow(1px 1px #9c41c5) drop-shadow(-1px -1px #9c41c5) drop-shadow(1px -1px #9c41c5) drop-shadow(-1px 1px #9c41c5);}
+.footerm {position:relative;float:left;min-width: 100%; background-color:#2e2c3c;height:143px;}
